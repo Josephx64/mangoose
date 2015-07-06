@@ -29,7 +29,7 @@
 	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
 
 	<!-- glyphicons DevIcons -->
-	<!-- <link rel="stylesheet" href="bower_componentsglyphicons/css/devicons.min.css" media="all" title="no title" charset="utf-8"> -->
+	<!-- <link rel="stylesheet" href="bower_components/glyphicons/css/devicons.min.css" media="all" title="no title" charset="utf-8"> -->
 
 	<!-- Remodal (Plugin jQuery para ventanas modales) -->
 	<!-- <link rel="stylesheet" href="bower_components/remodal/dist/jquery.remodal.css"> -->
@@ -41,66 +41,48 @@
 
 <body>
 
-    <!-- * * * * M A I N  N A V B A R * * * * -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="border-radius:0px">
+    <!-- * * * * H E A D E R * * * * -->
+    <header id="headerLogin">
+        <img src="myAssets\img\Logo_CETEC1.png" alt="CETEC One.net">
+    </header>
 
-        <!--Contenedor de la Navbar-->
-        <div class="container">
+    <!--Fila de contenido-->
+    <div id="rowContenido" class="row">
+        <div class="col-md-offset-3 col-md-6 col-sm-6 col-xs-12">
 
-            <!--Encabezado de la navbar-->
-            <div class="navbar-header">
+            <h3>Inicio de Sesión</h3>
+            <hr>
 
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nvbrPrincipal">
-                    <span class="sr-only">Desplegar Navegacion</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- L O G O -->
-                <a href="#" class="navbar-brand">Logotipo</a>
+            <!-- eMail -->
+            <div id="inputEmail" class="input-group input-group-lg">
+                <span class="input-group-addon" id="basic-addon1">
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                </span>
+                <input type="text" class="form-control" placeholder="eMail" aria-describedby="basic-addon1">
+            </div>
 
-            </div><!--/Encabezado de la navbar-->
+            <!-- Contraseña -->
+            <div id="inputPass" class="input-group input-group-lg">
+                <span class="input-group-addon" id="basic-addon2">
+                    <span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
+                </span>
+                <input  type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+            </div>
 
-            <!--Cuerpo de la Navbar Principal-->
-            <div id="nvbrPrincipal" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li> <a href="#">Seccion 1</a> </li>
-                    <li> <a href="#">Seccion 2</a> </li>
-                    <li> <a href="#">Seccion 3</a> </li>
-                    <li> <a href="#">Seccion 4</a> </li>
-                    <li> <a href="#">Seccion 5</a> </li>
-                    <li class="dropdown dropdown-right">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div><!--/Cuerpo de la Navbar Principal-->
+            <!-- Botón Iniciar Sesión -->
+            <button id="btnIniciarSesion" type="button" class="btn btn-primary btn-lg">Iniciar Sesión</button>
+            <br>
 
-        </div><!--/Contenedor de la Navbar-->
-
-    </nav><!--/Barra de Navegacion Principal-->
+            <a id="linkResetPass" href="#">Olvide mi contraseña</a>
 
 
-	<!-- F O O T E R -->
-	<footer id="footer">
+        </div>
+    </div>
 
-		<!--Contenedor del footer-->
-		<div class="container text-center">
-			<h6 class="text-muted">Corporativo CETEC 2014</h6>
-		</div><!--/Contenedor del footer-->
-
-	</footer><!--/Footer-->
-
-</body>
 
 	<!-- *************************** J S *************************** -->
 	<!-- Script de cofiguraciones generales -->
-	<script src="myAssets/js/global.config.js"></script>
+	<!-- // <script src="myAssets/js/global.config.js"></script> -->
 
     <!-- jQuery -->
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>

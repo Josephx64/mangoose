@@ -1,3 +1,4 @@
+
 .navbar-default {
     background-color:white;
     border:none;
@@ -6,11 +7,112 @@
 .navbar-default .navbar-nav>li>a {
   color: #1abc9c;
 }
+
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: #16a085;
   background-color: transparent;
-  }
+}
 
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #555;
     background-color: #1abc9c;
+}
+
+/*** Login.html ***/
+#headerLogin{
+    background-color: #336666;
+    width: 100%;
+    padding:1.5em 0 1.5em 0;
+    text-align: center;
+}
+
+#rowContenido{
+    margin: auto;
+    width: 100%;
+    padding:0 1em;
+    text-align: center;
+}
+
+h3{
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb(152, 152, 152);
+  text-align: center;
+  padding: 1em 0 0 0;
+}
+
+hr{
+  color: rgb(225, 225, 225);
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 0px;
+ }
+
+ /*Input (Caja de Texto)*/
+  .form-control{
+      border: 3px solid #336666;
+      outline: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+  }
+  .form-control:focus{
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: 3px solid #336666;
+      font-size: 18px;
+      font-family: "Open Sans";
+      color: #336666;
+      font-weight: bold;
+}
+
+
+  /*Iconos dentro de un input goup*/
+  .input-group-addon{
+      background-color:#336666;
+      border: 1px solid #336666;
+      color: white;
+  }
+  .input-group-addon:focus{
+      -ms-box-shadow: none;
+      -moz-box-shadow: none;
+      -o-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+  }
+
+  #inputEmail{
+      margin-bottom: 2em;
+      max-width:25em;
+  }
+
+  #inputPass{
+    margin-bottom: 2em;
+    max-width:25em;
+
+  }
+
+  .btn-primary{
+      background-color:#336666;
+      border: none;
+      border-radius: 0;
+  }
+  .btn-primary:hover{
+      background-color:#468687;
+  }
+
+  /*Boton Iniciar sesion*/
+  #btnIniciarSesion{
+      margin-bottom:2em;
+  }
+
+  /*Olvide mi contraseña*/
+  #linkResetPass{
+    
+  }
