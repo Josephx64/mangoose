@@ -1,0 +1,479 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margn",
+				"margin-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"btn",
+				"btnImprimir"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Newsletters/newsletter_pec_01.html",
+			"settings":
+			{
+				"buffer_size": 4379,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "myAssets/css/estilos.css",
+			"settings":
+			{
+				"buffer_size": 1571,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Newsletters/nl_pec_04.html",
+			"settings":
+			{
+				"buffer_size": 6798,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/José Luis/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 525,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 288.0,
+		"last_filter": "Package Control: i",
+		"selected_items":
+		[
+			[
+				"Package Control: i",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation';",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); ",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/cetec1",
+		"/C/xampp/htdocs/cetec1/Newsletters"
+	],
+	"file_history":
+	[
+		"/C/Users/José Luis/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/José Luis/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/pec/courses/INTROWEBDEVJLRZ/document/learning_path/Capitulo_1/1.1_Que_es_Internet.html",
+		"/C/Users/José Luis/Desktop/vbaProject.bin",
+		"/C/Users/José Luis/Desktop/ACAPULCO.xls",
+		"/C/Users/José Luis/Desktop/cetecnet_chmcpo.sql",
+		"/C/xampp/htdocs/Mustang/Ingles/CursosEmpresariales.php",
+		"/C/xampp/htdocs/Mustang/Ingles/CursosInfantiles.php",
+		"/C/xampp/htdocs/Mustang/Ingles/Diplomados.php",
+		"/C/xampp/htdocs/Mustang/Ingles/TcoIngles.php",
+		"/C/xampp/htdocs/Mustang/Ingles/CarrerasTecnicas.php",
+		"/C/xampp/htdocs/Mustang/Ingles/DiploComunicativoIntermedio.php",
+		"/C/xampp/htdocs/Mustang/Ingles/DiploComunicativoBasico.php",
+		"/C/xampp/htdocs/Mustang/Ingles/DiploInglesTecnicoEnfermeria.php",
+		"/C/Users/José Luis/Desktop/movie/assets/main.js",
+		"/C/Users/José Luis/Desktop/movie/Emmet Documentation.html",
+		"/C/Users/José Luis/Desktop/movie/assets/main.css",
+		"/C/xampp/htdocs/fancybox/documento.html",
+		"/C/Users/José Luis/Downloads/cetec1.net",
+		"/C/Users/José Luis/Creative Cloud Files/Artwork/XML/Escuelas.xml",
+		"/C/xampp/htdocs/ecampus/courses/JS4/document/learning_path/jquery/jqPlugins/jquery.zeroclipboard-master/dist/jquery.zeroclipboard.js",
+		"/C/xampp/htdocs/ecampus/courses/JS4/document/learning_path/css3/main.css",
+		"/C/Users/José Luis/Desktop/preview.html",
+		"/C/xampp/htdocs/ecampus/courses/JS4/document/learning_path/ejemplo_v2.html",
+		"/C/Users/José Luis/Desktop/vwgalerias.sql",
+		"/C/Users/José Luis/Creative Cloud Files/Artwork/XML/Recos Fin de Año/Administrativo.xml",
+		"/C/Users/José Luis/Desktop/datosgrafica.php",
+		"/C/Downloads/datosgrafica.php",
+		"/C/Users/José Luis/AppData/Local/Temp/Rar$DIa0.468/datosgrafica.php",
+		"/C/Users/José Luis/Dropbox/Websites/myphp/thumbnailx.php",
+		"/C/xampp/htdocs/gallery/show_thumb.php",
+		"/C/Users/José Luis/Desktop/profesores.sql",
+		"/C/Users/José Luis/Desktop/blueberry.sql",
+		"/C/Users/José Luis/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/José Luis/Desktop/Tempo/v2b-con-datos.sql",
+		"/C/Users/José Luis/Desktop/Tempo/encuestas2.sql",
+		"/C/Users/José Luis/Desktop/encuestas.encuesta.sql",
+		"/C/xampp/htdocs/encuesta_ad1/sql/encuesta_adc_2t.sql",
+		"/C/xampp/htdocs/php5/principal.php",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/jqupload/index.html",
+		"/C/xampp/htdocs/master/index.php",
+		"/C/xampp/htdocs/master2/includes/mainFunctions.inc.php",
+		"/C/xampp/htdocs/master/includes/phpAjaxUsers.inc.php",
+		"/C/xampp/htdocs/phpx/index.php",
+		"/C/xampp/htdocs/master2/index.php",
+		"/C/Users/José Luis/Desktop/jqui/jquery/jquery-ui/js/jquery-ui.js",
+		"/C/Users/José Luis/Desktop/jqui/jquery/jquery-ui/js/jquery-ui.min.js",
+		"/C/Users/José Luis/Desktop/jquery-ui/jquery/jquery.js",
+		"/C/xampp/htdocs/master/mockups/localhost.sql",
+		"/C/Users/José Luis/AppData/Local/Temp/Temp1_consultasPHP_AJAX_jQuery.sql.zip/localhost.sql",
+		"/C/xampp/htdocs/master2/includes/phpAjaxUsers.inc.php",
+		"/C/Users/José Luis/Desktop/Ejecicio12.html",
+		"/C/xampp/htdocs/jqupload/js/jQUpLoad_8_8_1/jquery.blueimp-gallery.min.js",
+		"/C/Users/José Luis/AppData/Local/Temp/Temp1_3_HTML5C1_20140913-181406.zip/course_info.dat",
+		"/C/Users/José Luis/OneDrive/Plan de Estudios Tecnico en Desarrollo Web 2014/2 HTML 5/Material de Aprendizaje/Capítulo 2 - Estructura básica de un documento HTML/2.2 El primer documento HTML/primer_documento.html",
+		"/G/Topacio/xampp/htdocs/topacio/index.php",
+		"/G/Topacio/xampp/htdocs/topacio/draft.php",
+		"/G/Topacio/xampp/htdocs/topacio/install1.php",
+		"/G/Topacio/preguntas.sql",
+		"/C/xampp/htdocs/topacio/inc/install.lib.php",
+		"/C/xampp/htdocs/topacio/install1.php",
+		"/C/Users/José Luis/Desktop/Tempo/encuestas.sql",
+		"/F/xampp/htdocs/encuesta_ad1/encuestas.sql",
+		"/G/Topacio/Encuestas/encuestas.sql",
+		"/C/Users/José Luis/Dropbox/Proyectos/Sistema de Encuestas/preguntas.sql",
+		"/C/xampp/htdocs/encuesta_ad1/Scripts/AnalisisVotos.php",
+		"/C/Users/José Luis/Desktop/preguntas.sql",
+		"/C/Users/José Luis/Dropbox/Seriales/Seriales Office 2013 Pro Plus.txt",
+		"/F/Users/Jose Luis/Desktop/encuestas.sql",
+		"/C/Users/José Luis/Desktop/Tempo/SQL/preguntas.sql",
+		"/C/Users/José Luis/Desktop/Tempo/Tempo2/topacio.sql"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dpb",
+			"DPB",
+			"(3,",
+			"folder",
+			"group",
+			"Verano",
+			"CursoVeranoIngles",
+			"Banner250x144_CursoVeranoIngles",
+			"Banner250x144_CursoVeranoIngles.jpg",
+			"Banners/Ingles/Banner250x144_CursoVeranoIngles.jpg",
+			"diplomados",
+			"car",
+			"para Enfermer",
+			"diplomados",
+			"spacer",
+			".spacer",
+			"4",
+			"- 2 copias",
+			"body",
+			"font-size: 14px",
+			"font-size: 14",
+			"$mygallery->",
+			"galley_images",
+			"utf",
+			"uspendido",
+			"suspendido",
+			"Suspendido"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Newsletters/newsletter_pec_01.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "myAssets/css/estilos.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1332.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Newsletters/nl_pec_04.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/José Luis/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 159.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cetec1.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ingles.php",
+				"Ingles\\Ingles.php"
+			],
+			[
+				"cursosempresa",
+				"Ingles\\CursosEmpresariales.php"
+			],
+			[
+				"cursosinfantiles",
+				"Ingles\\CursosInfantiles.php"
+			],
+			[
+				"carreras",
+				"Ingles\\CarrerasTecnicas.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\xampp\\htdocs\\fancybox\\fancybox.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

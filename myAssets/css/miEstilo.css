@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	color:#3362B4;
+}
+
+* {
+	font-family: Verdana;
+}
+p {
+	font-size: 12px;
+}
