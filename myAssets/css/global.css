@@ -1,3 +1,14 @@
+/*links*/
+a{
+    color:#336666;
+}
+a:focus, a:hover {
+  color: #468687;
+  text-decoration: underline;
+  }
+
+
+
 
 .navbar-default {
     background-color:white;
@@ -14,8 +25,10 @@
 }
 
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #555;
-    background-color: #1abc9c;
+    color: #ffffff;
+    /*text-shadow: #ffffff 1px 1px 0px;*/
+    background-color: #336666;
+    font-weight: bold;
 }
 
 /*** Login.html ***/
@@ -61,15 +74,16 @@ hr{
       outline: 0;
       -webkit-box-shadow: none;
       box-shadow: none;
+      font-size: 18px;
+      font-family: "Open Sans";
+      color: #336666;
+      font-weight: bold;
   }
   .form-control:focus{
       -webkit-box-shadow: none;
       box-shadow: none;
       border: 3px solid #336666;
-      font-size: 18px;
-      font-family: "Open Sans";
-      color: #336666;
-      font-weight: bold;
+      background-color: #ecf0f1;
 }
 
 
@@ -88,14 +102,13 @@ hr{
   }
 
   #inputEmail{
-      margin-bottom: 2em;
       max-width:25em;
+      margin-bottom: 3em;
   }
 
   #inputPass{
-    margin-bottom: 2em;
     max-width:25em;
-
+    margin-bottom: 3em;
   }
 
   .btn-primary{
@@ -109,10 +122,33 @@ hr{
 
   /*Boton Iniciar sesion*/
   #btnIniciarSesion{
-      margin-bottom:2em;
+      margin-bottom:3em;
   }
 
   /*Olvide mi contraseña*/
   #linkResetPass{
-    
+
   }
+
+/*Logo*/
+.navbar-brand{
+    padding-top:0px;
+}
+
+
+/****************************** H O M E *************************************/
+/*Carrusel*/
+#carrusel{
+    padding-top:8em;
+    text-align: center;
+}
+
+/*Titulo Carrusel*/
+.tituloCarrusel{
+  font-size: 5em;
+  font-family: "Segoe UI";
+  line-height: 1em;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: #336666 0.05em 0.05em 0px;
+}

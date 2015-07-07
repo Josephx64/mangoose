@@ -48,33 +48,42 @@
 
     <!--Fila de contenido-->
     <div id="rowContenido" class="row">
-        <div class="col-md-offset-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-12">
 
             <h3>Inicio de Sesión</h3>
             <hr>
 
-            <!-- eMail -->
-            <div id="inputEmail" class="input-group input-group-lg">
-                <span class="input-group-addon" id="basic-addon1">
-                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                </span>
-                <input type="text" class="form-control" placeholder="eMail" aria-describedby="basic-addon1">
-            </div>
+			<!-- FORMULARIO INICIAR SESION -->
+			<table align="center" cellpadding="0" cellspacing="0">
+            	<tr>
+            		<td>
+						<!-- Formulario -->
+						<form action="" align="center">
+							<!-- eMail -->
+							<div id="inputEmail" class="input-group input-group-lg">
+								<span class="input-group-addon" id="basic-addon1">
+									<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+								</span>
+								<input type="text" class="form-control" placeholder="eMail" aria-describedby="basic-addon1">
+							</div>
 
-            <!-- Contraseña -->
-            <div id="inputPass" class="input-group input-group-lg">
-                <span class="input-group-addon" id="basic-addon2">
-                    <span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
-                </span>
-                <input  type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
-            </div>
+							<!-- Contraseña -->
+							<div id="inputPass" class="input-group input-group-lg">
+								<span class="input-group-addon" id="basic-addon2">
+									<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+								</span>
+								<input  type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+							</div>
+						</form><!--/Formulario-->
+					</td>
+            	</tr>
+            </table><!--/FORMULARIO INICIAR SESION-->
 
             <!-- Botón Iniciar Sesión -->
             <button id="btnIniciarSesion" type="button" class="btn btn-primary btn-lg">Iniciar Sesión</button>
             <br>
 
-            <a id="linkResetPass" href="#">Olvide mi contraseña</a>
-
+			<a id="linkResetPass" href="#">Olvide mi contraseña <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
 
         </div>
     </div>
