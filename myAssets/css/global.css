@@ -13,6 +13,10 @@ a:focus, a:hover {
 .navbar-default {
     background-color:white;
     border:none;
+    border-bottom:2px solid #336666;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -141,13 +145,15 @@ hr{
 #carrusel{
     padding-top:8em;
     text-align: center;
+    border-bottom:2px solid #336666;
+    background-color: silver;
 }
 
 /*Titulo Carrusel*/
 .tituloCarrusel{
   font-size: 5em;
   font-family: "Segoe UI";
-  line-height: 1em;
+  line-height: 0.85em;
   color: #ffffff;
   text-align: center;
   text-shadow: #336666 0.05em 0.05em 0px;
