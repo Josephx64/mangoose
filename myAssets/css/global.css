@@ -11,28 +11,28 @@ a:focus, a:hover {
 
 
 .navbar-default {
-    background-color:white;
+    /*background-color:white;
     border:none;
     border-bottom:2px solid #336666;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    box-sizing: border-box;*/
 }
 
-.navbar-default .navbar-nav>li>a {
+/*.navbar-default .navbar-nav>li>a {
   color: #1abc9c;
-}
+}*/
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: #16a085;
-  background-color: transparent;
+  /*color: #16a085;
+  background-color: transparent;*/
 }
 
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #ffffff;
+    /*color: #ffffff;*/
     /*text-shadow: #ffffff 1px 1px 0px;*/
-    background-color: #336666;
-    font-weight: bold;
+    /*background-color: #336666;
+    font-weight: bold;*/
 }
 
 /*** Login.html ***/
